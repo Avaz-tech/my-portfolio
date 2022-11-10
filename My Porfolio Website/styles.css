@@ -350,3 +350,7 @@ form .send-btn{
     margin-top: 3rem;
     line-height: 1.8rem;
 }
+/* Modifications for small screen size conditions */
+@media (max-width: 1430px){
+    
+}
