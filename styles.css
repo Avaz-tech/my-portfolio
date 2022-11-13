@@ -12,7 +12,7 @@
 }
 :root{
     --bg-color:#10101a;
-    --main-color: rgb(1,5,255);
+    --main-color: #1fcdc7;
     --2nd-main-color:#ffffffcc;
     --text-color:#fff;
     --big-font: 5rem;
@@ -147,7 +147,7 @@ section{
     height: auto;
     border-radius: 1.5rem;
     padding: 2px;
-    background-color: rgb(1,5,255);
+    background-color:var(--main-color);
 }
 .about-text h3{
   color:var(--text-color);
@@ -417,9 +417,9 @@ form .send-btn{
     }
 
  }   
- @media (max-width:  795px){
+ @media (max-width: 795px ){
     body{
-        position: absolute;
+        position:absolute;
     }
     .home {
       grid-template-columns: 1fr;
