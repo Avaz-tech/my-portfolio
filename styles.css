@@ -448,6 +448,10 @@ form .send-btn{
 
  }   
  @media (max-width: 795px ){
+     
+     body{
+        display: block;
+       }
    
     .home {
       grid-template-columns: 1fr;
