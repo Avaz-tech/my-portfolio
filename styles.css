@@ -348,15 +348,14 @@ form .send-btn{
 .social-media{
     display: flex;
     justify-content: center;
-    margin: 90px;
+    margin: 60px 60px 0;
     padding: 20px;
 }
 .social-media i{
- position:relative;
- cursor: pointer;
+  cursor: pointer;
   font-size: 70px;
-  margin: auto;
-  padding: 20px;
+  margin:  auto auto 0;
+  padding: 17px;
   background: #1fcdc7;
   border-radius: 15px;
   
@@ -405,9 +404,11 @@ form .send-btn{
    .home-img img{
     margin-top:  30px;
    }
-   .social-media {
+   .social-media i{
     font-size: 60px;
-      margin: 5px;
+    margin: 2px 15px 0;
+    padding: 15px;
+   
    }
 }  
 @media (max-width:  830px){
@@ -441,7 +442,8 @@ form .send-btn{
     }
     .social-media i{
       font-size: 50px;
-      margin: 5px;
+      margin: 18px 12px 0;
+      padding: 13px;
     }
 
  }   
@@ -483,6 +485,10 @@ form .send-btn{
     
     .social-media i{
         font-size: 30px;
-        margin: 0 5px
+        margin: 10px 8px 0;
+        padding: 10px;
+    }
+    .copyright{
+        margin-top: 0;
     }
   }  
