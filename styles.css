@@ -202,7 +202,7 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     grid-gap: 2rem;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 4.4rem;
 }
  .row{
@@ -368,6 +368,7 @@ form .send-btn{
         --big-font:3rem;
         --h2-font: 1.2rem;
      }
+   
 }
 @media (max-width:  1020px){
    :root{
@@ -453,5 +454,4 @@ form .send-btn{
     .about-img{
         order:2;
     }
-     
   }  
