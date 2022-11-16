@@ -448,9 +448,9 @@ form .send-btn{
 
  }   
  @media (max-width: 795px ){
-     
-     body{
-        display: block;
+  
+   body{
+        position:absolute;
        }
    
     .home {
