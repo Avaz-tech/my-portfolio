@@ -345,6 +345,20 @@ form .send-btn{
     box-shadow: 4px 4px var(--main-color);
 }
 
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+}
+.social-media i{
+ cursor: pointer;
+  font-size: 80px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
 /* Copyright text modification */
 .copyright{
     text-align: center;
