@@ -24,6 +24,9 @@ body{
     background: var(--bg-color);
     color:var(--text-color);
 }
+a{
+    color: #fff;
+}
 
 /* Navbar styling */
 header{
@@ -351,7 +354,7 @@ form .send-btn{
     margin: 60px 60px 0;
     padding: 20px;
 }
-.social-media i{
+.social-media a{
   cursor: pointer;
   font-size: 70px;
   margin:  auto auto 0;
@@ -404,7 +407,7 @@ form .send-btn{
    .home-img img{
     margin-top:  30px;
    }
-   .social-media i{
+   .social-media a{
     font-size: 60px;
     margin: 2px 15px 0;
     padding: 15px;
@@ -440,7 +443,7 @@ form .send-btn{
     .navbar.active{
          top:100%
     }
-    .social-media i{
+    .social-media a{
       font-size: 50px;
       margin: 18px 12px 0;
       padding: 13px;
@@ -448,10 +451,9 @@ form .send-btn{
 
  }   
  @media (max-width: 795px ){
-  
-   body{
-        position:absolute;
-       }
+    body{
+       position: absolute;
+    }
    
     .home {
       grid-template-columns: 1fr;
@@ -487,12 +489,10 @@ form .send-btn{
         order:2;
     }
     
-    .social-media i{
+    .social-media a{
         font-size: 30px;
         margin: 10px 8px 0;
         padding: 10px;
     }
-    .copyright{
-        margin-top: 0;
-    }
+    
   }  
