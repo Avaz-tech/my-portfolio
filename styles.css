@@ -41,6 +41,7 @@ header{
     background: var(--bg-color);
     padding: 24px 14%;
     transition: .3s; 
+    border-bottom: 1px solid #69deec;
 }
 .logo{
     color:var(--text-color);
